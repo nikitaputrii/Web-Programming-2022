@@ -1,0 +1,94 @@
+body{
+    text-align: justify;
+}
+.first{
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.me img{
+    display: inline;
+    float: left;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.pn{
+    float: left;
+    display: inline;
+    margin-left: 20px;
+}
+
+a{
+    color: blue;
+}
+
+.cat{
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+section{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.foot{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+iframe{
+    float: left;
+    width: 400px; 
+    height: 210px;
+    border: 0px;
+    margin-top: 8px;
+}
+
+.photo{
+    float: left;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding-bottom: 20px;
+    margin: 8px 9px;
+}
+.kawah img {
+    width: 150px;
+    float: left;
+    margin: 5px;
+}
+.water img {
+    width: 150px;
+    float: right;
+    margin: 5px;
+}
+.tree img{
+    width: 150px;
+    float: right;
+    margin: 5px;
+}
+.ormik img{
+    width: 150px;
+    float: right;
+    margin: 5px;
+}
+
+.pdf{
+    float: right;
+    width: 370px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.pdf img{
+    width: 20px;
+}
+#pdf{
+    list-style: none;
+    color: blue;
+}
