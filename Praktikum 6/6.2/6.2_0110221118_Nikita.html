@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexbox 2</title>
+    <style>
+        body{
+            display: flex;
+            font-size: 20px;
+            align-items: stretch;
+        }
+        #nav{
+            display: flex;
+            flex-direction: row;
+        }
+        nav, header, article, aside, footer{
+            padding: 1em;
+            display: flex;
+        }
+        nav{
+            display: flex;
+            align-items: stretch;
+            background-color: pink;
+            width: 15vw;
+        }
+        header, footer{
+            background-color: khaki;
+            height: 5vw;
+            display: flex;
+            align-items: stretch;
+        }
+        #main{
+            display: flex;
+        }
+        #main > article{
+            display: flex;
+            width: 60vw;
+            align-items: stretch;
+        }
+        #main > aside{
+            display: flex;
+            background-color: turquoise;
+            width: 15vw;
+            height: 400px;
+            align-items: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <nav>Nav</nav>
+    <div id="most">
+        <header>Header</header>
+            <div id="main">
+                <article>Article</article>
+                <aside>Aside</aside>
+            </div>
+        <footer>Footer</footer>
+    </div>
+    </div>
+</body>
+</html>

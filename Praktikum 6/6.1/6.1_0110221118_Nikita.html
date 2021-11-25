@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 1</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            flex-direction: column;
+        }
+        img{
+            margin: 10px;
+        }
+        .one, .two{
+            width: 400px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <img src="assets/t1.png" alt="kaonashi1">
+        <img src="assets/t2.png" alt="kaonashi2">
+        <img src="assets/t3.png" alt="kaonashi3">
+    </div>
+    <div class="two">
+        <img src="assets/b1.png" alt="kaonashi4">
+        <img src="assets/b2.png" alt="kaonashi5">
+        <img src="assets/b3.png" alt="kaonashi6">
+        <img src="assets/b4.png" alt="kaonashi7">
+        <img src="assets/b5.png" alt="kaonashi8">
+    </div>
+</body>
+</html>
