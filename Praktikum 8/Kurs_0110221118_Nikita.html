@@ -32,33 +32,13 @@
             const awal = document.getElementById('awal').value;
 
             const us = document.getElementById('us').value;
-            const singa = document.getElementById('singa').value;
-            const rm = document.getElementById('rm').value;
-            const yen = document.getElementById('yen').value;
-            const euro = document.getElementById('euro').value;
-            const riyal = document.getElementById('riyal').value;
 
             let hasil = 0;
 
             if(pilih === awal) {
                 hasil = hasil;
             } else if(pilih === us) {
-                hasil = rp * 9915;
-                document.getElementById('hasil').innerHTML = hasil; 
-            } else if(pilih === singa) {
-                hasil = rp * 13472;
-                document.getElementById('hasil').innerHTML = hasil; 
-            } else if(pilih === rm) {
-                hasil = rp * 874;
-                document.getElementById('hasil').innerHTML = hasil; 
-            } else if(pilih === yen) {
-                hasil = rp * 120;
-                document.getElementById('hasil').innerHTML = hasil; 
-            } else if(pilih === euro) {
-                hasil = rp * 15888;
-                document.getElementById('hasil').innerHTML = hasil; 
-            } else {
-                hasil = rp * 3592;
+                hasil = rp * 14650;
                 document.getElementById('hasil').innerHTML = hasil; 
             }
         }
@@ -80,11 +60,6 @@
                 <td><select onchange="kursUang()" name="mata-uang" id="pilih">
                     <option value="none" id="awal">None</option>
                     <option value="Dollar US" id="us">Dollar US</option>
-                    <option value="Dollar Singapore" id="singa" >Dollar Singapore</option>
-                    <option value="Ringgit Malaysia" id="rm">Ringgit Malaysia</option>
-                    <option value="Yen Jepang" id="yen">Yen Jepang</option>
-                    <option value="Euro" id="euro">Euro</option>
-                    <option value="Riyal Arab Saudi" id="riyal">Riyal Arab Saudi</option>
                 </select></td>
                 <td><div id="hasil"></td>
             </tr>
