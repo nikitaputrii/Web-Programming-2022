@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting</title>
+    <style>
+        #box {
+            background-color: yellow;
+            width: 50vw;
+            height: 30vw;
+        }
+        #bot {
+            width: 40vw;
+            height: 30vw;
+        }
+        #pesan {
+            width: 45vw;
+        }
+        #kirim {
+            width: 4vw;
+        }
+    </style>
+    <script>
+        function chat() {
+            let isiPesan = document.getElementById('pesan').value;
+
+            let dunno = document.createElement('div');
+            let balas = document.createTextNode(isiPesan);
+            dunno.appendChild(balas);
+            document.getElementById('bot').appendChild(dunno);
+            }
+    </script>
+</head>
+<body>
+    <div id="box">
+        <div id="bot"></div>
+        <div>
+            <div id="isi">
+                <input type="text" id="pesan">
+                <button type="submit" id="kirim" value="kirim" onclick="chat()">Kirim</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
